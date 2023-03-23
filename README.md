@@ -28,9 +28,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [My-portfolio] <a name="about-project"></a>
+# 📖 [My-Portfolio-Project] <a name="about-project"></a>
 
-**[My-portfolio]** is a simple project made with html and css, the purpose of the project is to test our ability to use linters and github flow.
+**[My-Portfolio-Project]** is a simple project made with html and css, the purpose of the project is to test our ability to use linters and github flow.
 
 ## 🛠 Built With <a name="built-with"></a>
 
