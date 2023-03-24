@@ -30,7 +30,7 @@
 
 # 📖 [My-Portfolio-Project] <a name="about-project"></a>
 
-**[My-Portfolio-Project]** is a simple project made with html and css, the purpose of the project is to test our ability to use linters and github flow.
+**[My-Portfolio-Project]** My portfolio website is an online space that showcases my coding skills and projects to potential employers. My portfolio features an interactive design that allows employers to navigate and explore my coding work with ease. In addition to displaying my code in a repository, I've also added my personal information and listed my various projects and achievements to give everyone a complete picture of my skills and capabilities.
 
 ## 🛠 Built With <a name="built-with"></a>
 
