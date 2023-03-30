@@ -329,10 +329,6 @@ body {
   margin-top: -2.4rem;
 }
 
-.large-btn-area:hover {
-  cursor: pointer;
-}
-
 /** About Me Page **/
 
 .about_me {
@@ -426,4 +422,28 @@ body {
   font-size: 2.2rem;
   line-height: 4.3rem;
   padding: 2.4rem;
+}
+
+/** Button actions **/
+
+.btn-action:hover {
+  cursor: pointer;
+  background-color: #fff5e1;
+  border: 0.1rem solid #f55800;
+  color: #f55800;
+}
+
+.btn-action:enabled {
+  background-color: #f55800;
+  color: #fff;
+}
+
+.btn-action:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
+.btn-action:active {
+  background-color: #e05304;
+  color: #f4f1f0;
 }
