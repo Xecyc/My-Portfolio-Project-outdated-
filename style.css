@@ -433,11 +433,6 @@ body {
   color: #f55800;
 }
 
-.btn-action:enabled {
-  background-color: #f55800;
-  color: #fff;
-}
-
 .btn-action:disabled {
   background-color: #f4f1f0;
   color: #5b5957;
