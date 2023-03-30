@@ -199,7 +199,7 @@ body {
 
 .languages-list {
   display: grid;
-  grid-template-columns: 4.9rem 5.6rem 9.5rem 6.1rem;
+  grid-template-columns: 5.2rem 6.4rem 9.5rem 6.1rem;
   grid-template-rows: 4rem 4rem;
   gap: 1.2rem 1.2rem;
   grid-template-areas:
@@ -217,7 +217,9 @@ body {
   border: 0.1rem solid #8993a4;
   padding: 1rem 1.2rem;
   border-color: #091e42;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-area {
@@ -291,7 +293,7 @@ body {
 
 .project-content ul {
   display: grid;
-  grid-template-columns: 5.4rem 9.5rem 6.1rem;
+  grid-template-columns: 6.4rem 9.5rem 6.1rem;
   grid-template-rows: 4rem 4rem;
   gap: 1.2rem 1.2rem;
   grid-template-areas: "area-1 area-2 area-3";
