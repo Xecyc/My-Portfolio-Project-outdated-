@@ -141,43 +141,48 @@ body {
 /*** Main - Works section ***/
 
 .works-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 3rem;
   min-width: 32.7rem;
   min-height: 8.3rem;
   margin-top: 12rem;
 }
 
-.works-section h1 {
+.works-container h1 {
   font-family: 'Crete Round', sans-serif;
   font-size: 4rem;
   line-height: 5.2rem;
   color: #1c1a19;
   text-align: center;
-  padding: 3rem;
-  min-width: 32.7rem;
-  height: 8.3rem;
 }
 
-.works-section hr {
+.works-container hr {
+  justify-self: center;
   width: 30.5rem;
   border: 0.1rem solid #212121;
-  margin: 2.5rem auto 7.5rem auto;
 }
 
 .img-placeholder {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  justify-self: center;
+}
+
+.works-stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  min-width: 32.7rem;
+  min-height: 14.7rem;
 }
 
 .works-stories h1 {
   color: #091e42;
   font-size: 3.2rem;
   line-height: 4.4rem;
-  min-width: 32.7rem;
-  height: 3.6rem;
+  max-height: 3.6rem;
 }
 
 .works-stories p {
@@ -185,17 +190,10 @@ body {
   color: #091e42;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  width: 32.7rem;
-  height: 14.7rem;
-  display: flex;
-  align-items: center;
-  margin: 2rem auto 2rem auto;
+  max-width: 32.7rem;
 }
 
 .languages-box {
-  display: flex;
-  justify-content: center;
-  min-width: 32.7rem;
   font-family: 'Inter', sans-serif;
 }
 
@@ -211,8 +209,8 @@ body {
   font-size: 1.5rem;
   line-height: 2rem;
   list-style: none;
-  width: 32.7rem;
-  height: 9rem;
+  min-width: 32.7rem;
+  min-height: 9rem;
 }
 
 .languages-list li {
@@ -256,7 +254,6 @@ body {
   justify-content: center;
   min-height: 38.6rem;
   min-width: 32.7rem;
-  margin-top: 3rem;
 }
 
 .project-content {
@@ -266,8 +263,7 @@ body {
   background-image: url(./img/background/projects-background.png);
   background-repeat: no-repeat;
   max-width: 32.7rem;
-  max-height: 38.6rem;
-  padding-top: 2.4rem;
+  min-height: 38.6rem;
 }
 
 .project-content h1 {
@@ -321,7 +317,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: fit-content;
   min-height: 4.8rem;
   background-color: #ff6b00;
   font-weight: 700;
@@ -329,6 +324,7 @@ body {
   line-height: 2.4rem;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.03rem;
+  margin-top: -2.4rem;
 }
 
 .large-btn-area:hover {
