@@ -265,7 +265,8 @@ body {
   background-image: url(./img/background/projects-background.png);
   background-repeat: no-repeat;
   max-width: 32.7rem;
-  min-height: 38.6rem;
+  max-height: 50rem;
+  padding-top: 6rem;
 }
 
 .project-content h1 {
@@ -276,7 +277,6 @@ body {
   color: #fff;
   text-align: left;
   min-width: 29.5rem;
-  min-height: 8.1rem;
   padding-left: 1rem;
 }
 
@@ -287,7 +287,6 @@ body {
   line-height: 2.4rem;
   color: #fff;
   max-width: 29.5rem;
-  max-height: 8.7rem;
   padding-left: 1rem;
 }
 
@@ -297,8 +296,6 @@ body {
   grid-template-rows: 4rem 4rem;
   gap: 1.2rem 1.2rem;
   grid-template-areas: "area-1 area-2 area-3";
-  min-width: 32.7rem;
-  min-height: 5rem;
   padding-left: 1rem;
   list-style: none;
 }
@@ -326,7 +323,7 @@ body {
   line-height: 2.4rem;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.03rem;
-  margin-top: -2.4rem;
+  margin-top: -4.6rem;
 }
 
 /** About Me Page **/
