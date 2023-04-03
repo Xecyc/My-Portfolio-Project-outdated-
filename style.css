@@ -198,13 +198,13 @@ body {
 }
 
 .languages-list {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 5.2rem 6.4rem 9.5rem 6.1rem;
   grid-template-rows: 4rem 4rem;
   gap: 1.2rem 1.2rem;
   grid-template-areas:
     "area-1 area-2 area-3 area-4"
-    "btn-area btn-area . .";
+    "btn-area btn-area . ."; */
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -220,6 +220,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  float: left;
 }
 
 .btn-area {
@@ -232,7 +233,7 @@ body {
 
 .languages-list .btn-area {
   border: none;
-  grid-area: 2 / span 2;
+  /* grid-area: 2 / span 2; */
 }
 
 .btn {
@@ -291,11 +292,11 @@ body {
 }
 
 .project-content ul {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 6.4rem 9.5rem 6.1rem;
   grid-template-rows: 4rem 4rem;
   gap: 1.2rem 1.2rem;
-  grid-template-areas: "area-1 area-2 area-3";
+  grid-template-areas: "area-1 area-2 area-3"; */
   padding-left: 1rem;
   list-style: none;
 }
@@ -303,13 +304,14 @@ body {
 .list-area {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   background: rgba(255, 255, 255, 0.24);
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
+  float: left;
 }
 
 .large-btn-area {
@@ -323,7 +325,7 @@ body {
   line-height: 2.4rem;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.03rem;
-  margin-top: -4.6rem;
+  /* margin-top: -4.6rem; */
 }
 
 /** About Me Page **/
