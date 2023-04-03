@@ -229,6 +229,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #ff6b00;
+  clear: left;
 }
 
 .languages-list .btn-area {
