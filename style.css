@@ -109,8 +109,6 @@ main {
 
 .social-media ul {
   display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 .icon-box {
@@ -122,6 +120,10 @@ main {
 
 .media-img {
   display: block;
+}
+
+footer .media-img {
+  filter: invert(36%) sepia(10%) saturate(1520%) hue-rotate(179deg) brightness(89%) contrast(78%);
 }
 
 .media-img:hover {
@@ -193,9 +195,6 @@ main {
   grid-template-columns: 5.2rem 6.4rem 9.5rem 6.1rem;
   grid-template-rows: 4rem 4rem;
   gap: 1.2rem 1.2rem;
-  grid-template-areas:
-    "area-1 area-2 area-3 area-4"
-    "btn-area btn-area . .";
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -281,11 +280,8 @@ main {
 }
 
 .project-content ul {
-  display: grid;
-  grid-template-columns: 6.4rem 9.5rem 6.1rem;
-  grid-template-rows: 4rem 4rem;
-  gap: 1.2rem 1.2rem;
-  grid-template-areas: "area-1 area-2 area-3";
+  display: flex;
+  gap: 1.2rem;
   padding-left: 1rem;
 }
 
@@ -299,6 +295,7 @@ main {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
+  padding: 1rem;
 }
 
 .large-btn-area {
@@ -409,46 +406,49 @@ main {
 /** Contact Form and Footer social media **/
 
 .contact-section {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center; */
   align-items: center;
   gap: 5.8rem;
   max-width: 37.5rem;
-  min-height: 89rem;
+  max-height: 93rem;
   font-family: "Inter", sans-serif;
   padding: 12rem 2.4rem;
+  text-align: center;
 }
 
 .contact-section p {
   font-weight: 700;
   font-size: 3.2rem;
   line-height: 4.4rem;
-  text-align: center;
   color: #172b4d;
 }
 
-.contact-field-cnt {
+.contact-form {
   display: flex;
   flex-direction: column;
-  margin-top: 4.5rem;
-  margin-bottom: 4.5rem;
-  text-align: center;
 }
 
-.name-box, .mail-box {
+.name-box,
+.mail-box,
+.msg-box {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
   width: 100%;
-  padding: 1rem;
+  padding: 2rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #dbd8d7;
 }
 
 .msg-box {
-  width: 100%;
-  padding: 1rem;
+  font-style: italic;
+  background-color: #fbf8f7;
   border-style: none;
-  background-color: #FBF8F7;
-  height: 6rem;
+}
+
+.msg-box::placeholder { /* use ::placeholder pseudo-element to change the placeholder text color */
+  color: #3c3a39;
 }
 
 .btn-submit {
@@ -456,21 +456,20 @@ main {
   padding: 1rem;
 }
 
-.footer {
+footer {
   display: flex;
   flex-direction: column;
-  border-top: 1px solid #dfe1e6;
-  text-align: center;
-  justify-content: center;
+  border-top: 2px solid #dfe1e6;
   align-items: center;
 }
 
-.final-line {
+/* .final-line {
   margin-top: 3rem;
   border-radius: 1rem;
-  width: 33vw;
+  min-width: 13.4rem;
   border: 4px solid #0d151e;
-}
+} */
+
 /** Button actions **/
 
 .btn-action:hover {
