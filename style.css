@@ -302,17 +302,14 @@ main {
 }
 
 .large-btn-area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 4.8rem;
+  padding: 1rem;
+  text-align: center;
   background-color: #ff6b00;
   font-weight: 700;
   font-size: 1.7rem;
   line-height: 2.4rem;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.03rem;
-  margin-top: -4.6rem;
 }
 
 /** About Me Page **/
@@ -412,8 +409,9 @@ main {
 /** Contact Form and Footer social media **/
 
 .contact-section {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
+  justify-content: center; */
   align-items: center;
   gap: 5.8rem;
   max-width: 37.5rem;
@@ -430,6 +428,49 @@ main {
   color: #172b4d;
 }
 
+.contact-field-cnt {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+  text-align: center;
+}
+
+.name-box, .mail-box {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.msg-box {
+  width: 100%;
+  padding: 1rem;
+  border-style: none;
+  background-color: #FBF8F7;
+  height: 6rem;
+}
+
+.btn-submit {
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #dfe1e6;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.final-line {
+  margin-top: 3rem;
+  border-radius: 1rem;
+  width: 33vw;
+  border: 4px solid #0d151e;
+}
 /** Button actions **/
 
 .btn-action:hover {

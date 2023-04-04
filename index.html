@@ -155,24 +155,15 @@
     </section>
     <section class="contact-section">
       <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-      <form action="https://formspree.io/f/xlekpvok" method="post" id="contact-form">
-        <ul class="form-list">
-          <li class="name-box">
-            <label for="name"></label>
-            <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required/>
-          </li>
-          <li class="mail-box">
-            <label for="mail"></label>
-            <input type="email" id="mail" name="user_email" placeholder="Email address" required/>
-          </li>
-          <li>
-            <label for="msg" class="msg-box"></label>
-            <textarea id="msg" name="user_message" placeholder="Write me something..." maxlength="500" required></textarea>
-          </li>
-          <button class="btn large-btn-area btn-action">Get in touch</button>
-        </ul>
+      <form class="contact-field-cnt" action="https://formspree.io/f/xlekpvok" method="post" id="contact-form">
+        <div class="form-list">
+          <input class="name-box" type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required/>
+          <input class="mail-box" type="email" id="mail" name="user_email" placeholder="Email address" required/>
+          <textarea class="msg-box" id="msg" name="user_message" placeholder="Write me something..." maxlength="500" required></textarea>
+          <button class="btn large-btn-area btn-action btn-submit">Get in touch</button>
+        </div>
       </form>
-      <footer>
+      <footer class="footer">
         <div class="social-media">
           <ul>
             <li><a tabindex="0" class="icon-box" href="https://github.com/Xecyc"><img class="media-img" src="./img/social media icons/Icon -GitHub.svg" alt="github-icon" width="24" height="24"></a></li>
@@ -181,6 +172,8 @@
             <li><a tabindex="0"class="icon-box" href="https://medium.com/"><img class="media-img" src="./img/social media icons/Icon - Medium.svg" alt="medium-icon" width="24" height="24"></a></li>
             <li><a tabindex="0" class="icon-box" href="https://angel.co/"><img class="media-img" src="./img/social media icons/Icon - Angelist.svg" alt="angelist-icon" width="24" height="24"></a></li>
           </ul>
+        </div>
+        <div class="final-line">
         </div>
       </footer>
     </section>
