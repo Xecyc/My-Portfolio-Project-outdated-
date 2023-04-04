@@ -3,6 +3,7 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 html {
@@ -12,6 +13,13 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .navbar {
@@ -58,23 +66,19 @@ body {
   align-items: flex-start;
   gap: 1.2rem;
   padding-top: 12rem;
+  padding-left: 2.4rem;
   min-height: 59rem;
-  min-width: 37.5rem;
+  max-width: 37.5rem;
   background-color: #1c1a19;
-}
-
-.headline-container {
-  min-height: 59rem;
-  min-width: 37.5rem;
-  align-self: center;
   background-image: url("./img/background/illustration-header-mobile.svg");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom -23% right;
 }
 
 .headline h1 {
   font-family: 'Crete Round', sans-serif;
   color: #ff6b00;
+  font-weight: 400;
   font-size: 5.6rem;
   line-height: 6.4rem;
   letter-spacing: 0.037rem;
@@ -84,13 +88,10 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 2.4rem;
   line-height: 3.2rem;
-  min-width: 32.7rem;
-  min-height: 2.7rem;
   color: #fff5e1;
   display: flex;
   align-items: center;
-  margin-top: 0.4rem;
-  margin-bottom: 0.8rem;
+  margin-top: 0.5rem;
 }
 
 .headline p {
@@ -110,12 +111,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  min-width: 20rem;
-  min-height: 4rem;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
-  list-style: none;
 }
 
 .icon-box {
@@ -123,13 +118,9 @@ body {
   flex-direction: row;
   align-items: flex-start;
   padding: 0.8rem;
-  min-width: 4rem;
-  min-height: 4rem;
 }
 
 .media-img {
-  height: 2.4rem;
-  width: 2.4rem;
   display: block;
 }
 
@@ -208,7 +199,6 @@ body {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
-  list-style: none;
   min-width: 32.7rem;
   min-height: 9rem;
 }
@@ -297,7 +287,6 @@ body {
   gap: 1.2rem 1.2rem;
   grid-template-areas: "area-1 area-2 area-3";
   padding-left: 1rem;
-  list-style: none;
 }
 
 .list-area {
@@ -415,11 +404,36 @@ body {
 
 .skills-section ul {
   text-align: center;
-  list-style: none;
   font-size: 2.2rem;
   line-height: 4.3rem;
   padding: 2.4rem;
 }
+
+/** Contact Form and Footer social media **/
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.8rem;
+  max-width: 37.5rem;
+  min-height: 89rem;
+  font-family: "Inter", sans-serif;
+  padding: 12rem 2.4rem;
+}
+
+.contact-section p {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+  text-align: center;
+  color: #172b4d;
+}
+
+
+
+
+
 
 /** Button actions **/
 
