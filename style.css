@@ -3,6 +3,7 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 html {
@@ -12,6 +13,13 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .navbar {
@@ -58,23 +66,19 @@ body {
   align-items: flex-start;
   gap: 1.2rem;
   padding-top: 12rem;
+  padding-left: 2.4rem;
   min-height: 59rem;
-  min-width: 37.5rem;
+  max-width: 37.5rem;
   background-color: #1c1a19;
-}
-
-.headline-container {
-  min-height: 59rem;
-  min-width: 37.5rem;
-  align-self: center;
   background-image: url("./img/background/illustration-header-mobile.svg");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom -23% right;
 }
 
 .headline h1 {
   font-family: 'Crete Round', sans-serif;
   color: #ff6b00;
+  font-weight: 400;
   font-size: 5.6rem;
   line-height: 6.4rem;
   letter-spacing: 0.037rem;
@@ -84,13 +88,10 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 2.4rem;
   line-height: 3.2rem;
-  min-width: 32.7rem;
-  min-height: 2.7rem;
   color: #fff5e1;
   display: flex;
   align-items: center;
-  margin-top: 0.4rem;
-  margin-bottom: 0.8rem;
+  margin-top: 0.5rem;
 }
 
 .headline p {
@@ -108,14 +109,6 @@ body {
 
 .social-media ul {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  min-width: 20rem;
-  min-height: 4rem;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
-  list-style: none;
 }
 
 .icon-box {
@@ -123,14 +116,14 @@ body {
   flex-direction: row;
   align-items: flex-start;
   padding: 0.8rem;
-  min-width: 4rem;
-  min-height: 4rem;
 }
 
 .media-img {
-  height: 2.4rem;
-  width: 2.4rem;
   display: block;
+}
+
+footer .media-img {
+  filter: brightness(0) saturate(100%) invert(35%) sepia(11%) saturate(1273%) hue-rotate(180deg) brightness(96%) contrast(85%);
 }
 
 .media-img:hover {
@@ -202,13 +195,9 @@ body {
   grid-template-columns: 5.2rem 6.4rem 9.5rem 6.1rem;
   grid-template-rows: 4rem 4rem;
   gap: 1.2rem 1.2rem;
-  grid-template-areas:
-    "area-1 area-2 area-3 area-4"
-    "btn-area btn-area . .";
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
-  list-style: none;
   min-width: 32.7rem;
   min-height: 9rem;
 }
@@ -291,13 +280,9 @@ body {
 }
 
 .project-content ul {
-  display: grid;
-  grid-template-columns: 6.4rem 9.5rem 6.1rem;
-  grid-template-rows: 4rem 4rem;
-  gap: 1.2rem 1.2rem;
-  grid-template-areas: "area-1 area-2 area-3";
+  display: flex;
+  gap: 1.2rem;
   padding-left: 1rem;
-  list-style: none;
 }
 
 .list-area {
@@ -310,20 +295,18 @@ body {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
+  padding: 1rem;
 }
 
 .large-btn-area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 4.8rem;
+  padding: 1rem;
+  text-align: center;
   background-color: #ff6b00;
   font-weight: 700;
   font-size: 1.7rem;
   line-height: 2.4rem;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.03rem;
-  margin-top: -4.6rem;
 }
 
 /** About Me Page **/
@@ -415,10 +398,71 @@ body {
 
 .skills-section ul {
   text-align: center;
-  list-style: none;
   font-size: 2.2rem;
   line-height: 4.3rem;
   padding: 2.4rem;
+}
+
+/** Contact Form and Footer social media **/
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.8rem;
+  max-width: 37.5rem;
+  max-height: 93rem;
+  font-family: "Inter", sans-serif;
+  padding: 12rem 2.4rem;
+  text-align: center;
+}
+
+.contact-section p {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+  color: #172b4d;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-box,
+.mail-box,
+.msg-box {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  width: 100%;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.msg-box {
+  font-style: italic;
+  background-color: #fbf8f7;
+  border-style: none;
+}
+
+.msg-box::placeholder { /* use ::placeholder pseudo-element to change the placeholder text color */
+  color: #3c3a39;
+}
+
+.btn-submit {
+  align-self: center;
+  max-width: 13.1rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #dfe1e6;
+  align-items: center;
 }
 
 /** Button actions **/
