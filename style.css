@@ -123,7 +123,7 @@ main {
 }
 
 footer .media-img {
-  filter: invert(36%) sepia(10%) saturate(1520%) hue-rotate(179deg) brightness(89%) contrast(78%);
+  filter: brightness(0) saturate(100%) invert(35%) sepia(11%) saturate(1273%) hue-rotate(180deg) brightness(96%) contrast(85%);
 }
 
 .media-img:hover {
@@ -462,13 +462,6 @@ footer {
   border-top: 2px solid #dfe1e6;
   align-items: center;
 }
-
-/* .final-line {
-  margin-top: 3rem;
-  border-radius: 1rem;
-  min-width: 13.4rem;
-  border: 4px solid #0d151e;
-} */
 
 /** Button actions **/
 
