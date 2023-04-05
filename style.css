@@ -452,6 +452,8 @@ footer .media-img {
 }
 
 .btn-submit {
+  align-self: center;
+  max-width: 13.1rem;
   margin-top: 1.5rem;
   padding: 1rem;
 }
