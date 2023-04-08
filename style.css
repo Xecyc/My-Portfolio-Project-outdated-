@@ -551,6 +551,8 @@ footer {
   }
 
   .brand-name {
+    font-size: 2rem;
+    line-height: 2rem;
     padding-left: 8%;
     animation: slideInLeft  2s 0.3s;
   }
@@ -571,6 +573,9 @@ footer {
     overflow: hidden;
     background-size: contain;
     background-position: bottom -10rem right;
+    min-height: 59rem;
+    padding: 0;
+    padding-left: 4rem;
   }
 
   .headline-text {
@@ -579,7 +584,7 @@ footer {
     flex-direction: column;
     text-align: left;
     padding: 19.2rem 0 19.2rem 0;
-    gap: 2.4rem;
+    gap: 2.2rem;
     order: 1;
   }
 
@@ -702,10 +707,13 @@ footer {
     display: flex;
     align-items: flex-start;
     width: 50%;
+    gap: 1.2rem;
+    padding-left: 6rem;
   }
 
   .about_me-text p {
     min-width: 80%;
+    min-height: 17rem;
     font-size: 2rem;
     line-height: 3.2rem;
   }
@@ -715,10 +723,16 @@ footer {
     line-height: 8.15rem;
   }
 
+  .about_me .btn-area {
+    position: inherit;
+    min-width: 16rem;
+    min-height: 4.8rem;
+  }
+
   .about_me-container {
     background-image: url("./img/background/illustration-about\ me-desktop.svg");
     background-position: top 20% right;
-    background-size: 30%;
+    background-size: 40%;
     overflow: hidden;
     min-width: 100%;
     min-height: 58.2rem;
@@ -728,16 +742,8 @@ footer {
     padding-right: 13rem;
   }
 
-  .about_me .btn-area {
-    position: relative;
-    right: 0;
-    bottom: -3rem;
-    min-width: 16rem;
-    min-height: 4.8rem;
-  }
-
   .about_me hr {
-    width: 100%;
+    width: 92%;
     border: 0.1rem solid #fff;
   }
 
@@ -745,7 +751,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 8rem;
+    gap: 15rem;
   }
 
   .skills-container {
@@ -760,11 +766,15 @@ footer {
 
   .contact-section {
     min-width: 100%;
+    max-height: 72rem;
   }
 
   .contact-form-container {
     display: flex;
-    gap: 4rem;
+    align-items: flex-start;
+    min-width: 113rem;
+    gap: 10.4rem;
+    padding-right: 10rem;
   }
 
   .contact-form-container p {
@@ -773,6 +783,8 @@ footer {
     max-width: 52.5rem;
     min-height: 25.6rem;
     color: #262626;
+    display: flex;
+    align-items: center;
     text-align: left;
   }
 
@@ -790,17 +802,37 @@ footer {
     line-height: 2.4rem;
   }
 
-  footer .media-img {
-    margin-top: 5rem;
-    height: 4.4rem;
+  footer {
+    display: flex;
+    width: 100%;
+    max-height: 7.2rem;
+    margin-top: 6rem;
+    flex-direction: column;
+    border-top: 2px solid #dfe1e6;
+    align-items: center;
   }
+
+  footer .social-media {
+    max-height: 7.2rem;
+    padding-top: 5.5rem;
+  }
+
+  footer .media-img {
+    height: 2.4rem;
+  }
+
+    /** Button actions **/
+
+  .project-box .large-btn-area {
+    display: none;
+  }
+
+  .project-box:hover .large-btn-area {
+    display: block;
+  }
+
 }
 
-@media only screen and (min-width: 992px) {
-  html {
-    font-size: 90%;
-  }
-}
 
 @media only screen and (min-width: 1500px) {
   .headline {
