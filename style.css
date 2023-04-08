@@ -560,16 +560,6 @@ footer {
   /** Headline **/
 
   .headline {
-    background-image: url("./img/background/Illustration-header-desktop.svg");
-    background-size: contain;
-    background-position: bottom top right;
-  }
-
-  .about_me ul {
-    text-align: left;
-  }
-
-  .headline {
     flex-direction: row;
     align-items: center;
     overflow: hidden;
@@ -578,6 +568,13 @@ footer {
     min-height: 59rem;
     padding: 0;
     padding-left: 4rem;
+    background-image: url("./img/background/Illustration-header-desktop.svg");
+    background-size: contain;
+    background-position: bottom top right;
+  }
+
+  .about_me ul {
+    text-align: left;
   }
 
   .headline-text {
