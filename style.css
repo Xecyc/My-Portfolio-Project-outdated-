@@ -712,7 +712,7 @@ footer {
   }
 
   .about_me-text p {
-    min-width: 80%;
+    min-width: 100%;
     min-height: 17rem;
     font-size: 2rem;
     line-height: 3.2rem;
