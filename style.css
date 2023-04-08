@@ -821,7 +821,7 @@ footer {
     height: 2.4rem;
   }
 
-    /** Button actions **/
+  /** Button actions **/
 
   .project-box .large-btn-area {
     display: none;
@@ -830,9 +830,7 @@ footer {
   .project-box:hover .large-btn-area {
     display: block;
   }
-
 }
-
 
 @media only screen and (min-width: 1500px) {
   .headline {
