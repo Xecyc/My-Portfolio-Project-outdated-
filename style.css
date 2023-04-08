@@ -569,8 +569,6 @@ footer {
     padding: 0;
     padding-left: 4rem;
     background-image: url("./img/background/Illustration-header-desktop.svg");
-    background-size: contain;
-    background-position: bottom top right;
   }
 
   .about_me ul {
@@ -832,7 +830,6 @@ footer {
 
 @media only screen and (min-width: 1500px) {
   .headline {
-    background-image: url("./img/background/Illustration-header-desktop.svg");
     background-size: contain;
     background-position: bottom 5rem right;
   }
