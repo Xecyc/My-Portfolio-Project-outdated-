@@ -708,7 +708,7 @@ footer {
     align-items: flex-start;
     width: 50%;
     gap: 1.2rem;
-    padding-left: 6rem;
+    padding-left: 5rem;
   }
 
   .about_me-text p {
@@ -751,7 +751,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 15rem;
+    gap: 16rem;
   }
 
   .skills-container {
@@ -774,7 +774,7 @@ footer {
     align-items: flex-start;
     min-width: 113rem;
     gap: 10.4rem;
-    padding-right: 10rem;
+    padding-right: 15rem;
   }
 
   .contact-form-container p {
