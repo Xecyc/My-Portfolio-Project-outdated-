@@ -150,13 +150,15 @@ main {
 }
 
 footer .media-img {
-  filter: brightness(0) saturate(100%) invert(35%) sepia(11%) saturate(1273%)
+  filter:
+    brightness(0) saturate(100%) invert(35%) sepia(11%) saturate(1273%)
     hue-rotate(180deg) brightness(96%) contrast(85%);
 }
 
 .media-img:hover {
   cursor: pointer;
-  filter: invert(49%) sepia(77%) saturate(5619%) hue-rotate(8deg)
+  filter:
+    invert(49%) sepia(77%) saturate(5619%) hue-rotate(8deg)
     brightness(96%) contrast(97%);
 }
 
@@ -568,7 +570,6 @@ footer {
     padding: 0;
     padding-left: 4rem;
     background-image: url("./img/background/Illustration-header-desktop.svg");
-  
   }
 
   .about_me ul {
