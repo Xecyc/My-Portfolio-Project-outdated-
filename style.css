@@ -731,8 +731,10 @@ footer {
   }
 
   .about_me hr {
+    top: 24rem;
     min-width: 100%;
     border: 0.1rem solid #fff;
+    margin: 0 2rem 13rem 2rem;
   }
 
   .skills-section {
