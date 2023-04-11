@@ -52,8 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
-- N/A
+- https://xecyc.github.io/My-Portfolio-Project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +103,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-- https://xecyc.github.io/My-Portfolio-Project/
+- N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
