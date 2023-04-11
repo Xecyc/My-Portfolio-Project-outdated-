@@ -720,7 +720,7 @@ footer {
     min-width: 100%;
     min-height: 85vh;
     align-items: flex-start;
-    padding: 13rem 0rem;
+    padding: 13rem 0;
     padding-left: 13rem;
     padding-right: 13rem;
   }
