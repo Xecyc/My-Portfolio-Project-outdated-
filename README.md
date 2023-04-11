@@ -104,7 +104,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-- N/A
+- https://xecyc.github.io/My-Portfolio-Project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
