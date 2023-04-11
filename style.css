@@ -656,10 +656,11 @@ footer {
     margin-right: 1.5rem;
   }
 
-  .line {
+  .works-container .line {
     height: 0;
     min-width: 69%;
     border: 1px solid #212121;
+    margin-bottom: 0;
   }
 
   .works-header-multipost {
