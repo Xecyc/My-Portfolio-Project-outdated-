@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 62.5%;  /*** This was done to use rem instead of px, 1 rem = 10px */
+  font-size: 62.5%; /*** This was done to use rem instead of px, 1 rem = 10px */
 }
 
 body {
@@ -43,7 +43,7 @@ main {
 }
 
 .nav-elements a {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.7rem;
   line-height: 2rem;
   text-align: center;
@@ -57,7 +57,7 @@ main {
 }
 
 .brand-name {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.8rem;
   line-height: 2.4rem;
   font-weight: 700;
@@ -104,7 +104,7 @@ main {
 .headline h1 {
   max-width: 32.7rem;
   min-height: 12.4rem;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   color: #ff6b00;
   font-weight: 400;
   font-size: 5.6rem;
@@ -113,7 +113,7 @@ main {
 }
 
 .headline h1 span h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2.4rem;
   line-height: 3.2rem;
   color: #fff5e1;
@@ -124,7 +124,7 @@ main {
 
 .headline p {
   max-width: 32.7rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
@@ -150,12 +150,14 @@ main {
 }
 
 footer .media-img {
-  filter: brightness(0) saturate(100%) invert(35%) sepia(11%) saturate(1273%) hue-rotate(180deg) brightness(96%) contrast(85%);
+  filter: brightness(0) saturate(100%) invert(35%) sepia(11%) saturate(1273%)
+    hue-rotate(180deg) brightness(96%) contrast(85%);
 }
 
 .media-img:hover {
   cursor: pointer;
-  filter: invert(49%) sepia(77%) saturate(5619%) hue-rotate(8deg) brightness(96%) contrast(97%);
+  filter: invert(49%) sepia(77%) saturate(5619%) hue-rotate(8deg)
+    brightness(96%) contrast(97%);
 }
 
 /*** Main - Works section ***/
@@ -171,7 +173,7 @@ footer .media-img {
 }
 
 .works-container h1 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 4rem;
   line-height: 5.2rem;
   color: #1c1a19;
@@ -206,7 +208,7 @@ footer .media-img {
 }
 
 .works-stories p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #091e42;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -214,7 +216,7 @@ footer .media-img {
 }
 
 .languages-box {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .languages-list {
@@ -285,7 +287,7 @@ footer .media-img {
 }
 
 .project-content h1 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-weight: 400;
   font-size: 3.2rem;
   line-height: 4.4rem;
@@ -295,7 +297,7 @@ footer .media-img {
 }
 
 .project-content p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -316,7 +318,7 @@ footer .media-img {
   justify-content: center;
   background: rgba(255, 255, 255, 0.24);
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -330,7 +332,7 @@ footer .media-img {
   font-weight: 700;
   font-size: 1.7rem;
   line-height: 2.4rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   letter-spacing: 0.03rem;
 }
 
@@ -366,7 +368,7 @@ footer .media-img {
 }
 
 .about_me-text h1 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 7.2rem;
   line-height: 8.8rem;
   letter-spacing: 0.037rem;
@@ -377,7 +379,7 @@ footer .media-img {
 }
 
 .about_me-text p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 400;
@@ -390,7 +392,7 @@ footer .media-img {
   min-width: 16rem;
   min-height: 4.8rem;
   margin-top: 0.5rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .about_me hr {
@@ -408,7 +410,7 @@ footer .media-img {
   align-items: center;
   padding: 12rem 2.4rem 3.8rem;
   gap: 2.4rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
 }
 
@@ -474,7 +476,8 @@ footer .media-img {
   border-style: none;
 }
 
-.msg-box::placeholder { /* use ::placeholder pseudo-element to change the placeholder text color */
+.msg-box::placeholder {
+  /* use ::placeholder pseudo-element to change the placeholder text color */
   color: #3c3a39;
 }
 
@@ -546,7 +549,7 @@ footer {
     font-size: 2rem;
     line-height: 2rem;
     padding-left: 8%;
-    animation: slideInLeft  2s 0.3s;
+    animation: slideInLeft 2s 0.3s;
   }
 
   .ham-menu {
@@ -565,6 +568,7 @@ footer {
     padding: 0;
     padding-left: 4rem;
     background-image: url("./img/background/Illustration-header-desktop.svg");
+  
   }
 
   .about_me ul {
@@ -620,8 +624,8 @@ footer {
     justify-items: center;
     align-items: center;
     grid-template-areas:
-      'header header header'
-      'left middle right';
+      "header header header"
+      "left middle right";
   }
 
   .works-header-container {
