@@ -365,7 +365,7 @@ footer .media-img {
   align-items: flex-start;
 }
 
-.about_me h1 {
+.about_me-text h1 {
   font-family: 'Crete Round', sans-serif;
   font-size: 7.2rem;
   line-height: 8.8rem;
@@ -376,32 +376,28 @@ footer .media-img {
   height: 7.9rem;
 }
 
-.about_me p {
+.about_me-text p {
   font-family: 'Inter', sans-serif;
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 400;
   color: #f4f5f7;
-  width: 32.7rem;
-  height: 14.8rem;
+  min-width: 32.7rem;
 }
 
-.about_me .btn-area {
+.about_me-text .btn {
+  justify-self: flex-end;
   min-width: 16rem;
   min-height: 4.8rem;
   margin-top: 0.5rem;
-}
-
-.about_me .btn {
   font-family: 'Inter', sans-serif;
 }
 
 .about_me hr {
-  width: 30.5rem;
+  width: 80%;
   border: 0.1rem solid #fff;
-  margin: 2.5rem auto 7.5rem auto;
   position: relative;
-  top: 19rem;
+  top: 28rem;
 }
 
 /** Skills Section **/
@@ -704,12 +700,10 @@ footer {
     display: flex;
     align-items: flex-start;
     width: 50%;
-    gap: 2.4rem;
+    gap: 1.5rem;
   }
 
   .about_me-text p {
-    min-width: 100%;
-    max-height: 10rem;
     font-size: 2rem;
     line-height: 3.2rem;
   }
@@ -719,26 +713,20 @@ footer {
     line-height: 8.15rem;
   }
 
-  .about_me .btn-area {
-    min-width: 16rem;
-    min-height: 4.8rem;
-  }
-
   .about_me-container {
     background-image: url("./img/background/illustration-about\ me-desktop.svg");
     background-position: top 20% right;
     background-size: 40%;
-    overflow: hidden;
     min-width: 100%;
-    min-height: 58.2rem;
+    min-height: 85vh;
     align-items: flex-start;
-    padding: 13rem 0;
+    padding: 13rem 0rem;
     padding-left: 13rem;
     padding-right: 13rem;
   }
 
   .about_me hr {
-    width: 100%;
+    min-width: 100%;
     border: 0.1rem solid #fff;
   }
 
