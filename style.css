@@ -563,13 +563,12 @@ footer {
   .headline {
     flex-direction: row;
     align-items: center;
-    overflow: hidden;
+    background-image: url("./img/background/Illustration-header-desktop.svg");
     background-size: contain;
     background-position: bottom -10rem right;
     min-height: 59rem;
     padding: 0;
     padding-left: 4rem;
-    background-image: url("./img/background/Illustration-header-desktop.svg");
   }
 
   .about_me ul {
