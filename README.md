@@ -107,7 +107,7 @@ To run tests, run the following command:
   npx stylelint "**/*.{css,scss}"
 ```
 ```sh
-  npx eslint ."
+  npx eslint .
 ```
 
 
