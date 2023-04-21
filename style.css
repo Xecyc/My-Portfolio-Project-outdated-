@@ -604,6 +604,14 @@ footer {
   }
 }
 
+/** error message **/
+
+.error {
+  min-width: 35rem;
+  color:red;
+  font-size: 1.2rem;
+}
+
 /** Media Query - Desktop **/
 
 @media only screen and (min-width: 768px) {
