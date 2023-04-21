@@ -516,7 +516,7 @@ footer .media-img {
   align-items: center;
   gap: 5.8rem;
   max-width: 37.5rem;
-  max-height: 93rem;
+  height: 93rem;
   font-family: "Inter", sans-serif;
   padding: 12rem 2.4rem;
   text-align: center;
@@ -532,6 +532,7 @@ footer .media-img {
 .contact-form {
   display: flex;
   flex-direction: column;
+  padding-top: 6rem;
 }
 
 .name-box,
@@ -544,6 +545,7 @@ footer .media-img {
   padding: 2rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #dbd8d7;
+  outline: none;
 }
 
 .msg-box {
