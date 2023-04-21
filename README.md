@@ -39,11 +39,13 @@
 
 - HTML
 - CSS
+- JavaScript
 
 ### Tech Stack <a name="tech-stack"></a>
 
 - HTML
 - CSS
+- JavaScript
 
 
 
