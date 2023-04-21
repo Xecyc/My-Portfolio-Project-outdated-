@@ -39,17 +39,19 @@
 
 - HTML
 - CSS
+- JavaScript
 
 ### Tech Stack <a name="tech-stack"></a>
 
 - HTML
 - CSS
+- JavaScript
 
 
 
 ### Key Features <a name="key-features"></a>
 
-- N/A
+- Implemented email validation to the contact form
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,6 +106,10 @@ To run tests, run the following command:
 ```sh
   npx stylelint "**/*.{css,scss}"
 ```
+```sh
+  npx eslint .
+```
+
 
 
 ### Deployment
