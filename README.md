@@ -49,7 +49,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- N/A
+- Implemented email validation to the contact form
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
