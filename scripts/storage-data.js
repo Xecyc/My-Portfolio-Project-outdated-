@@ -18,3 +18,13 @@ window.onload = function () {
     });
   }
 };
+function getData() {
+  // Retrieve the form data
+  const parseData = JSON.parse(localStorage.getItem('formData'));
+  if (parseData !== "undefined" || parseData !== "null") {
+    document.getElementById('name').value = parseData.storedName;
+    document.getElementById('email').value = parseData.storedEmail;
+    document.getElementById('msg').value = parseData.storedEmail;
+  }
+}
+getData();
